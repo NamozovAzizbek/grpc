@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package add;
+
+service Adder{
+    rpc Add(Request) returns (Response){}
+}
+
+message Request{
+    int32 x = 1;
+    int32 y = 2;
+}
+
+message Response{
+    int32 result = 1;
+}
