@@ -8,6 +8,7 @@ require (
 )
 
 require (
+	github.com/NamozovAzizbek/grpc v0.0.0-20230325123144-b4f917bcb0cf // indirect
 	golang.org/x/net v0.8.0 // indirect
 	golang.org/x/sys v0.6.0 // indirect
 	golang.org/x/text v0.8.0 // indirect
