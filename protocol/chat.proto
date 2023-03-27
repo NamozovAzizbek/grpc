@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package protocol;
+
+message Message{
+    string body = 1;
+}
+
+service ChatService{
+    rpc telegram(Message) returns(Message){}
+}
